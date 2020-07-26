@@ -2,3 +2,9 @@
 // @author: edte
 // @create: 2020-07-23 16:19
 package compiler
+
+func IsVaild(json []byte) bool {
+
+
+
+}
