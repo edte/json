@@ -6,7 +6,7 @@ package main
 import (
 	"testing"
 
-	"json/test"
+	"json/encode"
 )
 
 /*func BenchmarkIsValid(b *testing.B) {
@@ -39,6 +39,6 @@ func BenchmarkB(b *testing.B) {
 	c := `{"a":2}`
 	b.ResetTimer()
 	for i := 0; i < 1000000; i++ {
-		test.Valid(stringBytes(c))
+		encode.Valid(stringBytes(c))
 	}
 }
